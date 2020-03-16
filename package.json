@@ -1,0 +1,19 @@
+{
+  "name": "expressDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node ./server/index.js",
+    "server:debug": "node --inspect ./server/index.js"
+  },
+  "author": "kra.yonatan@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "whatwg-fetch": "^3.0.0"
+  }
+}
